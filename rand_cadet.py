@@ -2,7 +2,7 @@
 import random
 
 all_cadets = range(848, 900)
-print(len(all_cadets))
+
 excluded = [849, 850, 851, 857, 867, 899]
 
 current = [x for x in all_cadets if x not in excluded]
