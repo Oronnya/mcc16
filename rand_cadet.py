@@ -3,12 +3,12 @@ import random
 
 all_cadets = range(848, 900)
 
-excluded = [849, 850, 851, 857, 867, 892, 899]
+excluded = [849, 850, 851, 857, 867, 892, 899, 869, 868, 885]
 
 current = [x for x in all_cadets if x not in excluded]
 
-# pick right-away
-print(random.choice(current))
+### pick right-away
+##print(random.choice(current))
 
 # use_dictionary?????
 nexts = []
@@ -20,7 +20,7 @@ import operator
 # dict by cadet number
 d = {}
 
-for i in range(500):
+for i in range(100):
     r = random.choice(current)
     
     if r in d.keys():
