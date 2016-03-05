@@ -3,7 +3,8 @@ import random
 
 all_cadets = range(848, 900)
 
-excluded = [849, 850, 851, 857, 867, 892, 899, 869, 868, 885]
+excluded = [896, 866, 871, 849, 850, 851, 857, 867, 892, 899, 869, 868, 885,
+            882, 897, 860, 883, 894, 875, 848]
 
 current = [x for x in all_cadets if x not in excluded]
 
